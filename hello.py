@@ -11,3 +11,7 @@ def index():
 @app.route('/hello')
 def hello():
     return 'Hello, World'
+
+# app.debug = True
+# app.run()
+app.run(debug = True)
